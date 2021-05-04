@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container-top{
+    background: url('../img/couplebike.jpg') no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-container{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container-logo{
+    padding-right: 300px;
+    padding-top: 5px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.menu-options{
+    padding-top: 10px;
+}
+
+.menu-options>a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    font-weight: bold;    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-options>a:link, .menu-options>a:visited{
+    color: white;
+}
+
+.menu-options>a:hover{
+    color: gray;
+}
+
+.container-title{
+    width: 800px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
+
+.title{
+    letter-spacing: 5px;
+    font-size: 500%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-leyend{
+    width: 750px;
+    position: relative;
+    left: 150px;
+    top: 250px;
+}
+
+.container-leyend>p{
+    color: white;
+    line-height: 25px;
+}
+
+.container-top>button{
+    background-color: rgb(88,37,235);
+    color: white;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    left: 150px;
+    top: 300px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.container-top>button:hover{
+    background-color: rgb(70, 33, 180);
+    letter-spacing: 2px;
+}
+
+/* STARTS SECTION TWO */
+
+.container-section-two{
+    height: 600px;
+    background-color: white;
+    text-align: center;
+}
+
+.container-section-two>h2{
+    padding-top: 50px;
+    font-size: 200%;
+    font-family: 'Nobile', sans-serif;
+}
+
+.container-leyend-two{
+    width: 700px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.container-leyend-two>p{
+    font-family: 'Nobile', sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.container-card{
+    height: 300px;
+    padding-top: 100px;
+}
+
+.one, .two, .tree{
+    display: inline-block;
+}
+
+.card{
+    width: 300px;
+    padding: 0px 80px;
+}
+
+.container-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(88,37,235);
+    display: inline-block;
+}
+
+.fa-tablet-alt, .fa-check-circle, .fa-lock{
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+}
+
+.title-card{
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'Nobile', sans-serif;
+}
+
+.leyend-card{
+    padding-top: 20px;
+    font-family: 'Nobile', sans-serif;
+    font-weight: 200;
+}
+
+
+/* Section tree */
+.section-tree{
+    height: 1000px;
+    background-color: rgb(243,243,243);
+    padding-top: 50px;
+}
+
+.info-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-info-text{
+    width: 600px;
+}
+
+.container-info-img, .container-info-text{
+    padding: 0px 40px;
+}
+
+.title-info{
+    font-family: 'Nobile', sans-serif;
+    font-size: 40px;
+}
+
+.container-info-leyend{
+    padding-top: 30px;
+    font-family: 'Nobile', sans-serif;
+    letter-spacing: 2px;
+    width: 520px;
+}
+
+.container-info-list{
+    padding-top: 30px;
+    font-family: 'Nobile', sans-serif;
+}
+
+.container-info-list-content{
+    display: flex;
+}
+
+.container-info-list-content>i{
+    color: black;
+}
+.container-info-list-content>p{
+    padding: 10px;
+}
+
+.container-info-text>button{
+    background-color: rgb(88,37,235);
+    color: white;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.container-info-text>button:hover{
+background-color: rgb(70, 33, 180);
+letter-spacing: 2px;
+}
+
+.two{
+    padding-top: 100px;
+    flex-direction:row-reverse;
+}
+
+/* Section four */
+.section-four{
+    height: 500px;
+}
+
+.container-profile-data{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-photo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-photo>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container-data{
+    text-align: center;
+    width: 900px;
+    display: inline-block;
+}
+
+.container-data>p{
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-family: 'Nobile', sans-serif;
+}
+span{
+    font-family: 'Nobile', sans-serif;
+}
+
+/* Section five */
+footer{
+    background-color: black;
+    height: 10vh;
+}
+
+footer>div{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
